@@ -54,7 +54,7 @@ const ACTIVITIES: ActivityDetail[] = [
     desc: "Persona mapping & ROI based ideation",
     fullDesc: "드비어스 바이럴 광고 제작 프로젝트입니다. 스토리보드 제작 이후 ROI 분석과 페르소나 설정을 진행했습니다. 특히 스캠퍼(SCAMPER) 기법을 통한 아이데이션 작업을 통해 광고 제작 시 철저하게 고객의 입장에서 생각하는 법을 익혔습니다.",
     tags: ["Market Analysis", "Persona", "SCAMPER", "Viral Ad"],
-    image: "https://github.com/kajun77/Kang-Ju-Eun-Portfolio/blob/2babe16cab5d8014abc3745eaf931f690949750c/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202026-05-13%20190514.png"
+    image: "https://raw.githubusercontent.com/kajun77/Kang-Ju-Eun-Portfolio/2babe16cab5d8014abc3745eaf931f690949750c/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202026-05-13%20190514.png"
   },
   {
     num: "03",
@@ -64,7 +64,7 @@ const ACTIVITIES: ActivityDetail[] = [
     fullDesc: "'앨리스 죽이기' 북트레일러 제작 경험입니다. 초기 스토리보드 구상부터 포토샵을 통한 콘셉트 디자인, After Effects를 활용한 모션 그래픽 작업 및 최종 편집까지 1인 제작 공정을 완수했습니다.",
     tags: ["After Effects", "Photoshop", "Motion Graphics", "Editing"],
     link: "https://youtu.be/Ucios8Oxcgo?si=pu5hB9HfD_euyySQ",
-    image: "https://github.com/kajun77/Kang-Ju-Eun-Portfolio/blob/2babe16cab5d8014abc3745eaf931f690949750c/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202026-05-13%20193215.png"
+    image: "https://raw.githubusercontent.com/kajun77/Kang-Ju-Eun-Portfolio/2babe16cab5d8014abc3745eaf931f690949750c/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202026-05-13%20193215.png"
   },
   {
     num: "04",
@@ -81,7 +81,7 @@ const ACTIVITIES: ActivityDetail[] = [
     desc: "Award-winning job training course",
     fullDesc: "한국디지털컨버전스협회에서 3개월간 '광고컨텐츠 제작 직업교육'을 이수했습니다. 끈기 있게 스스로를 단련하여 훈련 과정에서 최종 우수상을 수상하며 전문성을 인정받았습니다.",
     tags: ["Advertising", "Job Training", "Awarded"],
-    image: "https://github.com/kajun77/Kang-Ju-Eun-Portfolio/blob/2babe16cab5d8014abc3745eaf931f690949750c/KakaoTalk_20260513_195418648.jpg"
+    image: "https://raw.githubusercontent.com/kajun77/Kang-Ju-Eun-Portfolio/2babe16cab5d8014abc3745eaf931f690949750c/KakaoTalk_20260513_195418648.jpg"
   },
   {
     num: "06",
@@ -90,7 +90,7 @@ const ACTIVITIES: ActivityDetail[] = [
     desc: "Professional business adaptation training",
     fullDesc: "신한 커리어온 활동을 통해 실무 환경에 빠르게 적응하고 회사에 실질적인 도움이 되는 구성원이 되는 법을 체득했습니다.",
     tags: ["Career Training", "Business Logic", "Soft Skills"],
-    image: "https://github.com/kajun77/Kang-Ju-Eun-Portfolio/blob/2babe16cab5d8014abc3745eaf931f690949750c/KakaoTalk_20260513_195554792.jpg"
+    image: "https://raw.githubusercontent.com/kajun77/Kang-Ju-Eun-Portfolio/2babe16cab5d8014abc3745eaf931f690949750c/KakaoTalk_20260513_195554792.jpg"
   }
 ];
 
