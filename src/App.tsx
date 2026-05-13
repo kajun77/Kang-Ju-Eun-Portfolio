@@ -54,7 +54,7 @@ const ACTIVITIES: ActivityDetail[] = [
     desc: "Persona mapping & ROI based ideation",
     fullDesc: "드비어스 바이럴 광고 제작 프로젝트입니다. 스토리보드 제작 이후 ROI 분석과 페르소나 설정을 진행했습니다. 특히 스캠퍼(SCAMPER) 기법을 통한 아이데이션 작업을 통해 광고 제작 시 철저하게 고객의 입장에서 생각하는 법을 익혔습니다.",
     tags: ["Market Analysis", "Persona", "SCAMPER", "Viral Ad"],
-    image: "https://private-user-images.githubusercontent.com/220111588/591759761-11e21b83-1269-4291-b2f0-48acddf0174a.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Nzg2NzYwNTksIm5iZiI6MTc3ODY3NTc1OSwicGF0aCI6Ii8yMjAxMTE1ODgvNTkxNzU5NzYxLTExZTIxYjgzLTEyNjktNDI5MS1iMmYwLTQ4YWNkZGYwMTc0YS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwNTEzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDUxM1QxMjM1NTlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jYTIyYWIzNTRmYjg3YzZkNmU5NmM2NDFmYWViNjBmYjM3Y2I0Mzc3YzM1ZWI4ODBhYjlhOTk5N2YxMTcwZDk5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZyZXNwb25zZS1jb250ZW50LXR5cGU9aW1hZ2UlMkZwbmcifQ.Hgty0cdUpROXhYYVJ8VYZQGtO1IvIdCGIn7wYMSmYQg"
+    image: "https://github.com/kajun77/Kang-Ju-Eun-Portfolio/blob/2babe16cab5d8014abc3745eaf931f690949750c/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202026-05-13%20190514.png"
   },
   {
     num: "03",
@@ -64,7 +64,7 @@ const ACTIVITIES: ActivityDetail[] = [
     fullDesc: "'앨리스 죽이기' 북트레일러 제작 경험입니다. 초기 스토리보드 구상부터 포토샵을 통한 콘셉트 디자인, After Effects를 활용한 모션 그래픽 작업 및 최종 편집까지 1인 제작 공정을 완수했습니다.",
     tags: ["After Effects", "Photoshop", "Motion Graphics", "Editing"],
     link: "https://youtu.be/Ucios8Oxcgo?si=pu5hB9HfD_euyySQ",
-    image: "https://private-user-images.githubusercontent.com/220111588/591759762-ec0861b1-9266-4c8d-9a0d-1d728acba51a.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Nzg2NzU2MzgsIm5iZiI6MTc3ODY3NTMzOCwicGF0aCI6Ii8yMjAxMTE1ODgvNTkxNzU5NzYyLWVjMDg2MWIxLTkyNjYtNGM4ZC05YTBkLTFkNzI4YWNiYTUxYS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwNTEzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDUxM1QxMjI4NThaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT01MDI2YjU2ZjhhNzgwZmQ1ZDIxNzM5NDcxMjM3MjNiYmU5ZWMxZDc2MDY4ZmE1YjI1MDM4MTQ1ODljYWY2NGE1JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZyZXNwb25zZS1jb250ZW50LXR5cGU9aW1hZ2UlMkZwbmcifQ.RbfsxRy6fZnHxISwp-ruhMfdr1RpfCFctjBz-7y0RDk"
+    image: "https://github.com/kajun77/Kang-Ju-Eun-Portfolio/blob/2babe16cab5d8014abc3745eaf931f690949750c/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202026-05-13%20193215.png"
   },
   {
     num: "04",
@@ -81,7 +81,7 @@ const ACTIVITIES: ActivityDetail[] = [
     desc: "Award-winning job training course",
     fullDesc: "한국디지털컨버전스협회에서 3개월간 '광고컨텐츠 제작 직업교육'을 이수했습니다. 끈기 있게 스스로를 단련하여 훈련 과정에서 최종 우수상을 수상하며 전문성을 인정받았습니다.",
     tags: ["Advertising", "Job Training", "Awarded"],
-    image: "https://private-user-images.githubusercontent.com/220111588/591759689-d8605d2f-6330-4e54-850d-121095be96a2.jpg?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Nzg2NzU2MzgsIm5iZiI6MTc3ODY3NTMzOCwicGF0aCI6Ii8yMjAxMTE1ODgvNTkxNzU5Njg5LWQ4NjA1ZDJmLTYzMzAtNGU1NC04NTBkLTEyMTA5NWJlOTZhMi5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwNTEzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDUxM1QxMjI4NThaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1lM2I5ODA5ZjU4NWM0NWEwNmRhNGU0MjEzZGMwNmYyZDRlNzMwY2I2MjMxZjdiOTA4MmY1YjhjYWYxOTNmMGI2JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZyZXNwb25zZS1jb250ZW50LXR5cGU9aW1hZ2UlMkZqcGVnIn0.DjK8uxfM_x1-UeiVPP0j4sDOrSRZfn3jTyLcMR98dYg"
+    image: "https://github.com/kajun77/Kang-Ju-Eun-Portfolio/blob/2babe16cab5d8014abc3745eaf931f690949750c/KakaoTalk_20260513_195418648.jpg"
   },
   {
     num: "06",
@@ -90,7 +90,7 @@ const ACTIVITIES: ActivityDetail[] = [
     desc: "Professional business adaptation training",
     fullDesc: "신한 커리어온 활동을 통해 실무 환경에 빠르게 적응하고 회사에 실질적인 도움이 되는 구성원이 되는 법을 체득했습니다.",
     tags: ["Career Training", "Business Logic", "Soft Skills"],
-    image: "https://private-user-images.githubusercontent.com/220111588/591759690-45f815ca-0bbc-4d7d-b32f-9f016cedc2af.jpg?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Nzg2NzU2MzgsIm5iZiI6MTc3ODY3NTMzOCwicGF0aCI6Ii8yMjAxMTE1ODgvNTkxNzU5NjkwLTQ1ZjgxNWNhLTBiYmMtNGQ3ZC1iMzJmLTlmMDE2Y2VkYzJhZi5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwNTEzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDUxM1QxMjI4NThaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT00YTA3Y2UyNWNhOTRkNGJhN2VlZDQ3OGQyZjM3NWNhY2Y1NjA0OGY3ZTVmZWFkZmVjMWNhYjA5N2Q0YWIxYzZjJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZyZXNwb25zZS1jb250ZW50LXR5cGU9aW1hZ2UlMkZqcGVnIn0.Wx_2X1xY-kU2T82VMR0FWAGLkEsbqjnuk_jZm13-tCM"
+    image: "https://github.com/kajun77/Kang-Ju-Eun-Portfolio/blob/2babe16cab5d8014abc3745eaf931f690949750c/KakaoTalk_20260513_195554792.jpg"
   }
 ];
 
