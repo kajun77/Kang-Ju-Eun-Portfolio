@@ -1,0 +1,8 @@
+{
+  "name": "강주은 포트폴리오 (Ju-eun Kang Portfolio)",
+  "description": "끊임없이 공부하는 모델러 강주은의 성격, 활동내역 및 전문성을 담은 고품격 포트폴리오 웹사이트",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
