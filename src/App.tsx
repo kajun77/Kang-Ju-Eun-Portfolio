@@ -130,18 +130,7 @@ export default function App() {
               animate="visible"
               variants={containerVariants}
             >
-              <div className="flex items-center gap-4">
-                <motion.div variants={itemVariants} className="accent-box">3D Modeler & Designer</motion.div>
-                <motion.a 
-                  variants={itemVariants}
-                  href="https://drive.google.com/file/d/1JDNQl23WtVvO5i7x9InNGgJPnF-nuy39/view?usp=sharing" 
-                  target="_blank" 
-                  rel="noreferrer"
-                  className="text-[10px] font-black uppercase tracking-widest text-neon brutalist-border px-2 py-1 mb-2 hover:bg-neon hover:text-black transition-all flex items-center gap-1"
-                >
-                  View Resume <ArrowRight size={10} />
-                </motion.a>
-              </div>
+              <motion.div variants={itemVariants} className="accent-box">3D Modeler & Designer</motion.div>
               <motion.h1 variants={itemVariants} className="massive-title">
                 KANG<br />JU EUN
               </motion.h1>
