@@ -9,12 +9,28 @@
   --color-surface: #141414;
   --color-border: #333333;
   --color-text: #FFFFFF;
+
+  /* Light Theme Overrides */
+  --color-light-bg: #F4F4F4;
+  --color-light-surface: #FFFFFF;
+  --color-light-border: #D1D1D1;
+  --color-light-text: #1A1A1A;
+  --color-light-neon: #008000; /* Darker green for visibility on light bg */
 }
 
 @layer base {
   body {
-    @apply bg-bg text-text selection:bg-neon selection:text-black overflow-x-hidden antialiased;
+    @apply bg-bg text-text transition-colors duration-500 selection:bg-neon selection:text-black overflow-x-hidden antialiased;
     font-family: var(--font-sans);
+  }
+
+  body.light {
+    @apply bg-light-bg text-light-text;
+    --color-bg: var(--color-light-bg);
+    --color-surface: var(--color-light-surface);
+    --color-border: var(--color-light-border);
+    --color-text: var(--color-light-text);
+    --color-neon: var(--color-light-neon);
   }
 
   h1, h2, h3, h4, h5, h6 {

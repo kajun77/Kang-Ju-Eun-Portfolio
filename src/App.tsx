@@ -18,7 +18,12 @@ import {
   User, 
   Zap,
   ArrowRight,
-  X
+  X,
+  Rocket,
+  Star,
+  Orbit,
+  Dog,
+  Bot
 } from "lucide-react";
 
 interface ActivityDetail {
@@ -91,6 +96,26 @@ const ACTIVITIES: ActivityDetail[] = [
 
 export default function App() {
   const [selectedActivity, setSelectedActivity] = useState<ActivityDetail | null>(null);
+  const [theme, setTheme] = useState<'dark' | 'light'>('dark');
+  const [copied, setCopied] = useState(false);
+
+  React.useEffect(() => {
+    if (theme === 'light') {
+      document.body.classList.add('light');
+    } else {
+      document.body.classList.remove('light');
+    }
+  }, [theme]);
+
+  const handleCopyEmail = () => {
+    navigator.clipboard.writeText('JUN022505@GMAIL.COM');
+    setCopied(true);
+    setTimeout(() => setCopied(false), 2000);
+  };
+
+  const toggleTheme = () => {
+    setTheme(prev => prev === 'dark' ? 'light' : 'dark');
+  };
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -112,6 +137,52 @@ export default function App() {
     <div className="min-h-screen relative flex bg-bg overflow-x-hidden">
       <div className="noise-overlay" />
       
+      {/* Background Decor */}
+      <div className="fixed inset-0 pointer-events-none overflow-hidden opacity-10">
+        <motion.div 
+          animate={{ scale: [1, 1.2, 1], opacity: [0.3, 0.6, 0.3] }}
+          transition={{ duration: 3, repeat: Infinity }}
+          className="absolute top-[10%] left-[10%] text-neon"
+        >
+          <Star size={12} fill="currentColor" />
+        </motion.div>
+        <motion.div 
+          animate={{ scale: [1, 1.5, 1], opacity: [0.2, 0.5, 0.2] }}
+          transition={{ duration: 4, repeat: Infinity, delay: 1 }}
+          className="absolute top-[40%] right-[15%] text-neon"
+        >
+          <Star size={8} fill="currentColor" />
+        </motion.div>
+        <motion.div 
+          animate={{ y: [0, -20, 0], rotate: [0, 10, 0] }}
+          transition={{ duration: 8, repeat: Infinity, ease: "easeInOut" }}
+          className="absolute bottom-[30%] left-[20%] text-neon"
+        >
+          <Orbit size={24} strokeWidth={1} />
+        </motion.div>
+        <motion.div 
+          animate={{ scale: [1, 1.3, 1], opacity: [0.1, 0.4, 0.1] }}
+          transition={{ duration: 5, repeat: Infinity, delay: 2 }}
+          className="absolute bottom-[50%] left-[50%] text-neon"
+        >
+          <Star size={10} fill="currentColor" />
+        </motion.div>
+        <motion.div 
+          animate={{ y: [0, 15, 0], rotate: [0, -5, 0] }}
+          transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
+          className="absolute top-[25%] right-[35%] text-neon"
+        >
+          <Orbit size={16} strokeWidth={1} />
+        </motion.div>
+        <motion.div 
+          animate={{ scale: [1, 1.2, 1], opacity: [0.3, 0.7, 0.3] }}
+          transition={{ duration: 2.5, repeat: Infinity, delay: 0.5 }}
+          className="absolute top-[70%] left-[12%] text-neon"
+        >
+          <Star size={6} fill="currentColor" />
+        </motion.div>
+      </div>
+      
       {/* Sidebar Vertical Text */}
       <aside className="hidden lg:flex w-20 brutalist-border flex-none items-center justify-center">
         <div className="vertical-text uppercase font-black text-xs tracking-[0.4em] opacity-30 whitespace-nowrap">
@@ -131,8 +202,42 @@ export default function App() {
               variants={containerVariants}
             >
               <motion.div variants={itemVariants} className="accent-box">3D Modeler & Designer</motion.div>
-              <motion.h1 variants={itemVariants} className="massive-title">
+              <motion.h1 variants={itemVariants} className="massive-title relative inline-block">
                 KANG<br />JU EUN
+                <motion.div 
+                  animate={{ 
+                    y: [-10, 10, -10],
+                    rotate: [0, 5, -5, 0]
+                  }}
+                  transition={{ 
+                    duration: 4,
+                    repeat: Infinity,
+                    ease: "easeInOut"
+                  }}
+                  className="absolute -right-12 top-0 text-neon md:-right-20"
+                >
+                  <Rocket size={48} className="md:w-16 md:h-16" strokeWidth={1.5} />
+                </motion.div>
+                
+                {/* Memorial Icons (human & ai) */}
+                <div className="absolute left-full ml-12 top-[65%] -translate-y-1/2 hidden xl:flex items-center gap-8 opacity-40">
+                  <motion.div
+                    animate={{ y: [0, -10, 0] }}
+                    transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
+                    className="flex flex-col items-center gap-2"
+                  >
+                    <Dog size={24} className="text-neon" />
+                    <span className="text-[8px] font-black uppercase tracking-widest text-neon">human</span>
+                  </motion.div>
+                  <motion.div
+                    animate={{ y: [-10, 0, -10] }}
+                    transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
+                    className="flex flex-col items-center gap-2"
+                  >
+                    <Bot size={24} className="text-neon" />
+                    <span className="text-[8px] font-black uppercase tracking-widest text-neon">ai</span>
+                  </motion.div>
+                </div>
               </motion.h1>
             </motion.div>
           </div>
@@ -143,7 +248,7 @@ export default function App() {
               MZ 제너레이션 크리에이티브 인재 강주은입니다.
             </p>
             <div className="flex flex-wrap gap-2">
-              {['Blender', 'Unity', 'Substance', 'AE'].map(tool => (
+              {['Blender', 'Unity', 'Substance', 'AE', 'Premiere', 'Photoshop'].map(tool => (
                 <span key={tool} className="tool-tag">{tool}</span>
               ))}
             </div>
@@ -298,8 +403,15 @@ export default function App() {
             <h4 className="text-2xl font-black">JUN022505@GMAIL.COM</h4>
           </div>
           <div className="flex gap-4 w-full md:w-auto justify-end">
-            <SocialLink icon={<Mail size={20} />} />
-            <SocialLink icon={<Monitor size={20} />} />
+            <SocialLink 
+              icon={copied ? <span className="text-[10px] font-black">COPIED!</span> : <Mail size={20} />} 
+              onClick={handleCopyEmail}
+              active={copied}
+            />
+            <SocialLink 
+              icon={<Monitor size={20} />} 
+              onClick={toggleTheme}
+            />
             <SocialLink icon={<Target size={20} />} />
           </div>
         </footer>
@@ -335,11 +447,14 @@ function ActivityItem({ num, label, title, desc, onClick }: ActivityItemProps) {
   );
 }
 
-function SocialLink({ icon }: { icon: React.ReactNode }) {
+function SocialLink({ icon, onClick, active }: { icon: React.ReactNode, onClick?: () => void, active?: boolean }) {
   return (
-    <a href="#" className="p-4 brutalist-border hover:bg-neon hover:text-black transition-all">
+    <button 
+      onClick={onClick}
+      className={`p-4 brutalist-border transition-all cursor-pointer ${active ? 'bg-neon text-black' : 'hover:bg-neon hover:text-black text-text'}`}
+    >
       {icon}
-    </a>
+    </button>
   );
 }
 
